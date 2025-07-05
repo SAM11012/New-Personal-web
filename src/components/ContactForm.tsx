@@ -86,7 +86,7 @@ export const ContactForm = ({ onSuccess }: ContactFormProps) => {
       if (data.success) {
         showToast({
           title: "Message Sent Successfully!",
-          description: "Thank you for reaching out. We'll get back to you soon.",
+          description: "Thank you for reaching out. We&#39;ll get back to you soon.",
         });
         setFormData({
           name: '',
@@ -184,7 +184,7 @@ export const ContactForm = ({ onSuccess }: ContactFormProps) => {
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             handleInputChange("subject", e.target.value)
           }
-          placeholder="What's this about?"
+          placeholder="What&#39;s this about?"
           className={`transition-all duration-200 ${
             errors.subject
               ? "border-red-500 focus:border-red-500"
@@ -238,7 +238,7 @@ export const ContactForm = ({ onSuccess }: ContactFormProps) => {
         )}
       </Button>
       <p className="text-xs text-gray-500 text-center">
-        * Required fields. I'll respond within 24 hours.
+        * Required fields. I&#39;ll respond within 24 hours.
       </p>
     </form>
   );
