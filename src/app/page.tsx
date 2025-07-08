@@ -207,7 +207,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm and I&#39;ll respond whenever I
+                Want to chat? Just shoot me a dm and I will respond whenever I
                 can. I will ignore all soliciting.
               </p>
             </div>

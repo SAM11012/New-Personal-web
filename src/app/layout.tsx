@@ -56,6 +56,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link
+          rel="icon"
+          href="https://media.licdn.com/dms/image/v2/D5603AQFoVsCa9K0FYg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1699167738788?e=1756944000&v=beta&t=KDfjLAjS7Tku8bUxv-CWCGqiggi4gD_wQKm5nd6Fwcs"
+          type="image/png"
+        />
+      </head>
+
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
